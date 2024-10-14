@@ -1,0 +1,29 @@
+package Day_1;
+
+public class GlobalVariableLocalVariable {
+	
+	static int gv = 10; // global variable
+	static int gv_id = 123;
+
+	public static void main(String[] args) {
+		
+		int lv_id = 25; // local variable 
+		System.out.println("I am global variable:" + gv);
+		System.out.println(gv_id);
+		System.out.println("I am local Variable:"+lv_id);
+		Test();
+		
+		
+		
+	}
+	
+	public static void Test() {
+		
+//		System.out.println(lv_id); // local variable can not be called in another method.
+		System.out.println(gv); // global variable can be called anywhere. 
+	}
+	
+	
+	
+
+}

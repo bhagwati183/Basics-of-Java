@@ -1,0 +1,55 @@
+package Day_1;
+
+import java.util.Scanner;
+
+public class Method_PracticeSheet {
+	
+	//Create a method that prints "Hello, World!".
+	
+	static void display() {
+		
+		System.out.println("Hello World!!!");
+		
+	}
+// Write a method that takes no arguments and prints username.
+	
+	static void printUserName() {
+		
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("Enter your good name:");
+		
+		String Username = userInput.nextLine();
+		System.out.println("Hi "+Username);
+			
+	}
+	
+//Write a method that takes two integers as parameters from users and prints their sum.
+	
+	static void sum(int a, int b) {
+		
+		int sum = a + b;
+		System.out.println("The Sum is:"+ sum);
+	}
+	
+	
+//
+	public static void main(String[] args) {
+		
+		display();
+		printUserName();
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter the first number:");
+		int x = input.nextInt();
+		
+		System.out.println("Enter the second number:");
+		int y = input.nextInt();
+		
+		
+	    sum(x, y);
+		
+		
+	}
+
+}

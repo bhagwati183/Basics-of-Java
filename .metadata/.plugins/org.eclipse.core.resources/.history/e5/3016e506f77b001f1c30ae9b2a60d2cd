@@ -1,0 +1,22 @@
+package Day_1;
+
+public class Method_PracticeSheet {
+	
+	//Create a method that prints "Hello, World!".
+	
+	static void display() {
+		
+		System.out.println("Hello World!!!");
+		
+	}
+// Write a method that takes no arguments and prints your name
+	static void PrintMyName() {
+		System.out.println("Hi I am Bhagwati");
+	}
+	public static void main(String[] args) {
+		
+		display();
+		PrintMyName();
+	}
+
+}

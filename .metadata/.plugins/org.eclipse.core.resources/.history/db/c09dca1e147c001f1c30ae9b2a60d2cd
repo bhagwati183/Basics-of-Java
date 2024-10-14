@@ -1,0 +1,43 @@
+package Day_1;
+
+public class MethodOverloading {
+	
+	static int add(int a, int b) {
+		return a+b;
+	}
+	
+	static int add(int a , int b, int c) {
+		return a+b+c;
+	}
+	
+	static int add(int a, int b , int c, int d) {
+		return a+b+c+d;
+	}
+//2. Write overloaded methods to find the maximum of two int values and two double values.
+	
+	static int max(int a, int b) {
+		if(a>b) {
+			return a;
+		} else {
+			return b;
+		}
+	}
+	
+	static double max( double a, double b) {
+		if(a>b) {
+			return a;
+		} else {
+			return b;
+		}
+	}
+	public static void main(String[] args) {
+		
+		System.out.println(add(10,20));
+		System.out.println(add(10,20,30));
+		System.out.println(add(10,20,30,40));
+		
+		System.out.println("This is greater:"+max(10,20));
+		System.out.println("This is greater:"+max(10.3,20.6));
+
+}
+}

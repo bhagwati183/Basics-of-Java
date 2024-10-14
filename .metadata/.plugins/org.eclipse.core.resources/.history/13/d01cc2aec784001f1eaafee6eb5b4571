@@ -1,0 +1,10 @@
+package inheritance;
+
+public class Single_CodeReuseability {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

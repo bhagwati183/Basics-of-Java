@@ -1,0 +1,24 @@
+package Day_1;
+
+public class PracticeSheet {
+	
+	static int a =25;
+
+	 public static void main(String[] args) {
+		 
+		 int b = 10;
+		 System.out.println(a);
+		 System.out.println(b);
+		 System.out.println(c);
+		 
+	 }
+	 
+	 void Test() {
+		 
+		 int c =11;
+		 System.out.println(a);
+		 System.out.println(b);
+		 System.out.println(c);
+	 }
+
+}

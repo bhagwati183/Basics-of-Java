@@ -1,0 +1,30 @@
+package Day_1;
+
+import java.util.Scanner;
+
+public class Method_PracticeSheet {
+	
+	//Create a method that prints "Hello, World!".
+	
+	static void display() {
+		
+		System.out.println("Hello World!!!");
+		
+	}
+// Write a method that takes no arguments and prints your name use scanner.
+	static void PrintMyName() {
+		Scanner username = new Scanner(System.in);
+		System.out.println("Enter your name:");
+		String name = username.nextLine();
+		System.out.println("Hi          "+ name);
+	}
+	
+//
+	public static void main(String[] args) {
+		
+		display();
+		PrintMyName();
+		
+	}
+
+}

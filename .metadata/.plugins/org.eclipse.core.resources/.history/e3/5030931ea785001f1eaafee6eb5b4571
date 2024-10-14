@@ -1,0 +1,25 @@
+package Day_1;
+
+public class This_Keyword {
+	
+	int a = 30;
+	void test(int a) {
+		a = a;
+		
+	}
+
+	public static void main(String[] args) {
+		
+		This_Keyword var = new This_Keyword();
+		System.out.println(var.a);
+		
+		var.test(50);
+		
+		System.out.println(var.a);
+		
+		
+	
+
+	}
+
+}

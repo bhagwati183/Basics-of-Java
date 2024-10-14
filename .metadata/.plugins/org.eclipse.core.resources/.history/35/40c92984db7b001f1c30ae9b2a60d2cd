@@ -1,0 +1,35 @@
+package Day_1;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		/* Method is block of code or set of instruction or group of code
+		 * Usage: */
+		addition();
+		substraction();
+		add();
+	  
+	}
+	
+	static void addition() {
+		
+		int a=10, b=20, sum;
+		sum= a+b;
+		System.out.println("Sum of two numbers are:" +sum);	
+	}
+	
+	static void substraction() {
+		int a =20, b = 10, sub;
+		sub = a-b;
+		System.out.println("Substarction of two numbers are:" + sub);
+	}
+	
+	static int add() {
+		int sum,a,b;
+		a =70;
+		b=20;
+		sum = a+b;
+		System.out.println(sum);
+		return sum;
+	}
+}
